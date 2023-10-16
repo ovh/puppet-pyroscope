@@ -1,0 +1,13 @@
+# THIS FILE IS AUTOMATICALLY DISTRIBUTED BY PUPPET.  ANY CHANGES WILL BE
+# OVERWRITTEN.
+
+/var/log/pyroscope/pyroscope.log {
+  compress
+  copytruncate
+  daily
+  missingok
+  nodelaycompress
+  notifempty
+  rotate 7
+  endscript
+}
